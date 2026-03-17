@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: waha-lucas
+    runtime: docker
+    plan: starter
+    envVars:
+      - key: WHATSAPP_API_KEY
+        value: "lucas_waha_2026"
+      - key: PORT
+        value: "3000"
